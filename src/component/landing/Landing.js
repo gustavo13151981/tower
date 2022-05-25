@@ -25,7 +25,7 @@ const Landing = (props) => {
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy ,
-        dayMonth = "04/13/",
+        dayMonth = "06/11/",
         birthday = dayMonth + yyyy;
     
       today = mm + "/" + dd + "/" + yyyy;
@@ -69,11 +69,9 @@ const Landing = (props) => {
         <img src={landing_logo} className="landing_logo"/>
         </div>
         <p className="english_text" style={{display: props.data ? 'block' : 'none' }}> Welcome to The Tower Of God Ecosystem.
-An community driven platform, where smart investors become degens and anime fans. empowering people of all ages and cultures to be in control their own wealth opportunities to either lose or make money.  The $TOG token is our medium, it was built on the Binance blockchain (BEP-20) with a smart code that makes it safe to invest and beneficial to hold.</p>
-<p className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >欢迎来到神之塔生态系统。
-一个社区驱动的平台，聪明的投资者在这里变成了德原和动漫迷。使所有年龄和文化的人能够控制自己的财富机会，要么失去要么赚钱。 $TOG 代币是我们的媒介，它建立在 Binance 区块链 (BEP-20) 之上，带有智能代码，可确保投资安全并有益于持有
-Huānyíng lái dào shén zhī tǎ shēngtài xìtǒng.
-Yīgè shèqū qūdòng de píngtái, cōngmíng de tóuzī zhě zài zhèlǐ biàn chéngle dé yuán hé dòngmàn mí. Shǐ suǒyǒu niánlíng hé wénhuà de rén nénggòu kòngzhì zìjǐ de cáifù jīhuì, yàome shīqù yàome zhuànqián. $TOG dài bì shì wǒmen de méijiè, tā jiànlì zài Binance qū kuài liàn (BEP-20) zhī shàng, dài yǒu zhìnéng dàimǎ, kě quèbǎo tóuzī ānquán bìng yǒuyì yú chí yǒu</p>
+An community driven platform, where smart investors become degens and anime fans. empowering people of all ages and cultures to be in control of their own wealth opportunities to either lose or make money.  The $TOG token is our medium, it was built on the Binance blockchain (BEP-20) with a smart code that makes it safe to invest and beneficial to hold.</p>
+<p className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >欢迎来到神之塔生态系统。一个社区驱动的平台，聪明的投资者在这里变成了德原和动漫迷。使所有年龄和文化的人能够控制自己的财富机会，要么失去要么赚钱。 $TOG 代币是我们的媒介，它建立在 Binance 区块链 (BEP-20) 之上，带有智能代码，可以安全投资并有益于持有。
+</p>
       </div>
       <div class="container_timer">
     <h1 id="headline">PRESALE IN</h1>
@@ -93,7 +91,6 @@ Yīgè shèqū qūdòng de píngtái, cōngmíng de tóuzī zhě zài zhèlǐ bi
     <div id="content" class="emoji">
       <span>🥳</span>
       <span>🎉</span>
-      <span>🎂</span>
     </div>
   </div>
 
@@ -153,7 +150,7 @@ Yīgè shèqū qūdòng de píngtái, cōngmíng de tóuzī zhě zài zhèlǐ bi
                 <h2 className="english_text" style={{display: props.data ? 'block' : 'none' }}>Play2Earn</h2>
                 <h2 className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >玩赚</h2>
                 <p className="english_text" style={{display: props.data ? 'block' : 'none' }}>Our platform provides its players with a chance to earn any form of in-game assets or bnb that can be transferred to the real world as a valuable resource.</p>
-                <p className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >我们的平台为玩家提供了赚取任何形式的游戏内资产或 bnb 的机会，这些资产可以作为宝贵的资源转移到现实世界。</p>
+                <p className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >我们的平台为其玩家提供了赚取任何形式的游戏内资产或 bnb 的机会，这些资产可以作为宝贵的资源转移到现实世界。</p>
                 </div>
               </div>
             </div>
@@ -207,11 +204,11 @@ Yīgè shèqū qūdòng de píngtái, cōngmíng de tóuzī zhě zài zhèlǐ bi
                   <li className="english_text" style={{display: props.data ? 'block' : 'none' }}> Post launch Marketing begins </li>
                   <li className="english_text" style={{display: props.data ? 'block' : 'none' }}> Social media marketing/ Twitter 2,000 holders </li>
                   <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >白名单/公开发售</li>
-                  <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} > 煎饼交换上市 </li>
+                  <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} > Pancakeswap 上市 </li>
                   <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >游戏发布</li>
                   <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >上市 Coingecko 和 Coinmarketcap</li>
                   <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} > 发布后营销开始 </li>
-                  <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} > 社交媒体营销/ Twitter 2,000 名持有者 </li>
+                  <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} > 社交媒体营销/ Twitter 2,000 名持有者</li>
                   </p>
                 </div>
               </div>
@@ -240,7 +237,7 @@ Yīgè shèqū qūdòng de píngtái, cōngmíng de tóuzī zhě zài zhèlǐ bi
                   <li className="english_text" style={{display: props.data ? 'block' : 'none' }}>Massive Asian market outreach</li>
                   <li className="english_text" style={{display: props.data ? 'block' : 'none' }}>Eth Launch</li>
                   <li className="english_text" style={{display: props.data ? 'block' : 'none' }}> Key Strategic Partnerships</li>
-                  <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >$TOG 矿池（交换和质押） </li>
+                  <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} > $TOG 矿池（交换和质押）</li>
                   <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >YouTube 营销</li>
                   <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >大规模的亚洲市场拓展</li>
                   <li className="chinese_text" style={{display: props.data ? 'none' : 'block' }} >以太坊启动</li>

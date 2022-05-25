@@ -10,13 +10,13 @@
   letter-spacing: .125rem;
   text-transform: uppercase;
   color: #fff;
-  font-size: 36px;
+  font-size: 38px;
   padding-top: 50px;
 }
 
 .count_ul li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1.7em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
@@ -39,7 +39,7 @@
 
 @media all and (max-width: 768px) {
   #headline {
-    font-size: 25px;
+    font-size: 28px;
   }
   .count_ul {
     font-size: calc(1.125rem * var(--smaller));

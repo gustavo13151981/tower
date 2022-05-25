@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: myFirstFont;
-  src: url(./font/second.TTF);
+  src: url(./font/mk2.ttf);
 }
 
 
 body, #root{
-  font-family: 'Roboto', sans-serif;  
+  font-family: myFirstFont;  
 }
 
 #selectBox{
