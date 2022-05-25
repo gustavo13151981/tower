@@ -27,7 +27,7 @@ const Landing = (props) => {
         nextYear = yyyy ,
         dayMonth = "06/11/",
         birthday = dayMonth + yyyy;
-    
+    //f
       today = mm + "/" + dd + "/" + yyyy;
       if (today > birthday) {
         birthday = dayMonth + nextYear;
