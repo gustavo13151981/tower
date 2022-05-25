@@ -8,7 +8,7 @@ import arrow from '../../images/arrow.png'
 import './landing.scss'
 import '../sidebar/sidebar.scss'
 
-/* eslint-disable no-unused-expressions */
+/* eslint-disable no-unused-expressions  fixes*/
 
 const Landing = (props) => {
   useEffect(()=>{
